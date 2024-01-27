@@ -1,0 +1,28 @@
+.items-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.button {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border: solid 1px #000000;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 4px;
+  text-align: center;
+}
